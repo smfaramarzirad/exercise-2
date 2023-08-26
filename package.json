@@ -1,0 +1,13 @@
+{
+  "name": "bootstrap-v4-rtl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "minify-css": "postcss ./css/style.css > ./css/style.min.css"
+  },
+  "devDependencies": {
+    "cssnano": "^6.0.1",
+    "postcss-cli": "^10.1.0"
+  }
+}
